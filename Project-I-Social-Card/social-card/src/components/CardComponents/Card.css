@@ -1,1 +1,18 @@
 /* All styles for your Card Components live here */
+.card-container {
+	align-content: right;
+	align-items: right;
+    justify-content: right;
+    margin-left: 50px;
+
+}
+
+.card-banner img {
+	width: 400px;
+	border-radius: 10px;
+}
+
+.card-content {
+    margin-left: 20px;
+
+}
