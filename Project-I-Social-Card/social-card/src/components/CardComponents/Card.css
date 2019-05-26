@@ -10,7 +10,7 @@
 }
 
 .card-banner img {
-	width: 398px;
+	width: 399px;
 	border-radius: 15px 15px 0px 0px;
 }
 
@@ -18,14 +18,18 @@
 	margin-left: 20px;
 }
 
-.card-content h4 {
+.card-content h5 {
 	margin-top: 10px;
-	margin-bottom: 0;
+	margin-bottom: 5px;
 }
 
 .card-content p {
 	margin-top: 5x;
+	margin-bottom: 5px;
 }
 .pfooter {
 	color: grey;
+}
+a {
+	text-decoration: none;
 }
