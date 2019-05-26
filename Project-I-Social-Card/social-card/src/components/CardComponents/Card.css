@@ -2,17 +2,30 @@
 .card-container {
 	align-content: right;
 	align-items: right;
-    justify-content: right;
-    margin-left: 50px;
-
+	justify-content: right;
+	margin-left: 50px;
+	border: solid lightgrey;
+	border-width: thin;
+	border-radius: 16px;
 }
 
 .card-banner img {
-	width: 400px;
-	border-radius: 10px;
+	width: 398px;
+	border-radius: 15px 15px 0px 0px;
 }
 
 .card-content {
-    margin-left: 20px;
+	margin-left: 20px;
+}
 
+.card-content h4 {
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+
+.card-content p {
+	margin-top: 5x;
+}
+.pfooter {
+	color: grey;
 }

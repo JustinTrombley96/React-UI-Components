@@ -7,6 +7,13 @@
 .header-title {
 	display: flex;
     flex-direction: row;
+    margin-left: 10px;
+}
+.header-title p{
+    margin-top: 23px;
+    margin-left: 10px;
+    color: lightgrey;
+    
 }
 .image-thumbnail {
     display: flex;
@@ -19,6 +26,7 @@
 .img-title {
     display: flex;
     flex-direction: row;
+    
 }
 .img {
     display: flex;
@@ -31,5 +39,8 @@
 }
 p {
     font-size: .85rem;
+    margin-top: 0;
+    margin-right: 20px;
+
 
 }
