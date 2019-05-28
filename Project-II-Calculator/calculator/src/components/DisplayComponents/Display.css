@@ -1,0 +1,12 @@
+.calculator-display {
+	color: white;
+	background-color: black;
+	width: 200px;
+	display: block;
+    text-align: right;
+    
+    
+}
+.calculator-display h1 {
+	margin-right: 10px;
+}
