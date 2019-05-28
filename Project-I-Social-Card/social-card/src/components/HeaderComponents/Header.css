@@ -1,1 +1,47 @@
 /* All styles for your header Components live here */
+.header-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.header-title {
+	display: flex;
+	flex-direction: row;
+	margin-left: 10px;
+}
+.header-title p {
+	margin-top: 23px;
+	margin-left: 10px;
+	color: lightgrey;
+	margin-bottom: 0px;
+}
+.image-thumbnail {
+	display: flex;
+	flex-direction: column;
+}
+.header-content {
+	display: column;
+	margin-left: 50px;
+}
+.img-title {
+	display: flex;
+	flex-direction: row;
+	height: 45px;
+}
+.img {
+	display: flex;
+	flex-direction: column;
+	padding-right: 0px;
+	margin-top: 20px;
+}
+.image-thumbnail img {
+	height: 40px;
+}
+p {
+	font-size: .85rem;
+	margin-top: 0;
+	margin-right: 20px;
+}
+h5 {
+	margin-bottom: 0px;
+}

@@ -1,0 +1,32 @@
+.zero {
+	background: var(--color-grey);
+	text-align: right;
+	color: white;
+	height: 8rem;
+	margin-top: 5rem;
+}
+.action-button {
+	height: 7.6rem;
+}
+.zero p {
+	margin: 0;
+	padding: 2.5rem 2rem 0 0;
+}
+.button-large {
+	width: 75%;
+	height: 5rem;
+	font-size: 2.5rem;
+	border-color: grey;
+	background: white;
+}
+.button-red {
+	width: 25%;
+	height: 5rem;
+	color: white;
+	background: var(--color-red);
+	font-size: 2.5rem;
+	border-color: grey;
+}
+.clear-row {
+	height: 5rem;
+}

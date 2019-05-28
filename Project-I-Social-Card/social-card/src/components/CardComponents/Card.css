@@ -1,1 +1,35 @@
 /* All styles for your Card Components live here */
+.card-container {
+	align-content: right;
+	align-items: right;
+	justify-content: right;
+	margin-left: 50px;
+	border: solid lightgrey;
+	border-width: thin;
+	border-radius: 16px;
+}
+
+.card-banner img {
+	width: 399px;
+	border-radius: 15px 15px 0px 0px;
+}
+
+.card-content {
+	margin-left: 20px;
+}
+
+.card-content h5 {
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.card-content p {
+	margin-top: 5x;
+	margin-bottom: 5px;
+}
+.pfooter {
+	color: grey;
+}
+a {
+	text-decoration: none;
+}
