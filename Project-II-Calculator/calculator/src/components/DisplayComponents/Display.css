@@ -1,12 +1,23 @@
-.calculator-display {
-	color: white;
-	background-color: black;
-	width: 200px;
-	display: block;
-    text-align: right;
-    
-    
+.button-white {
+	width: 25%;
+	height: 5rem;
+	font-size: 2.5rem;
+	border-color: grey;
+    font-weight: 700;
+    background: white;
 }
-.calculator-display h1 {
-	margin-right: 10px;
+.row1 {
+	height: 5rem;
+}
+.row2 {
+	height: 5rem;
+}
+.row3 {
+	height: 5rem;
+}
+.row4 {
+	height: 5rem;
+}
+.row4 .button-large {
+	font-weight: 700;
 }

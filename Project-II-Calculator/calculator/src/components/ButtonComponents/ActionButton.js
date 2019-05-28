@@ -1,18 +1,21 @@
 import React from 'react';
 import './Button.css';
+import NumberButton from './NumberButton';
 
-const ActionButton = props => {
-	const { action } = props;
+function ActionButton() {
 	return (
-		<div className='action-button'>
-			<div className='clear'>
-				<button>{action.clear}</button>
+		<div>
+			<div className='action-button'>
+				<div className='zero'>
+					<p>0</p>
+				</div>
 			</div>
-			<div className='clear'>
-				<button>{action.zero}</button>
+			<div className='clear-row'>
+				<NumberButton textProp='clear' buttonStyle='button-large' />
+				<NumberButton textProp='/' buttonStyle='button-red' />
 			</div>
 		</div>
 	);
-};
+}
 
 export default ActionButton;

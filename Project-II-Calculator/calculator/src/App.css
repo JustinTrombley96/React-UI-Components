@@ -1,20 +1,23 @@
-.app {
-	display: flex;
-	flex-direction: column;
-    align-items: center;
-    width: 200px;
-    
+:root {
+	--color-red: darkred;
+	--color-grey: #333;
 }
-.bottom {
-    display: flex;
-    flex-direction: row;
-    
+
+html {
+	font-size: 62.5%;
 }
-.left {
-    width: 150px;
-    
+
+body {
+	font-size: 4rem;
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	/* background: var(--color-red) */
 }
-.right {
-    width: 50px;
-    
+
+.container {
+	max-width: 25rem;
+	height: 50vh;
+	margin: 0 auto;
+	width: 100%;
 }
